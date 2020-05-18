@@ -10,6 +10,11 @@
     color: darkslategrey ;
   }
 
+.Graph {
+    width: 40%;
+    height: 30%;
+}
+
 .Welcome {
     margin-top: 2%;
 }

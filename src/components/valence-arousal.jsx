@@ -1,5 +1,6 @@
 import React from 'react';
 import { Chart } from 'react-charts'
+import './container.css'
 
 class VAChart extends React.Component {
     render() {
@@ -37,10 +38,7 @@ class VAChart extends React.Component {
     
         return (
             <div
-              style={{
-                width: '400px',
-                height: '300px'
-              }}
+              className="Graph"
             >
                 <Chart data={data}
                     series={series}
