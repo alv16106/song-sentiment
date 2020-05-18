@@ -1,0 +1,44 @@
+.Container {
+    text-align: center;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: darkslategrey ;
+  }
+
+.Welcome {
+    margin-top: 2%;
+}
+
+.Form {
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.Selectors {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+
+.Sliders {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: #ee8572;
+}
+
+img {
+    width: 45%;
+    height: auto;
+    padding-bottom: 4%;
+}
