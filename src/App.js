@@ -9,7 +9,7 @@ import AppContainer from './components/AppContainer';
 function App() {
   return (
     <div className="App">
-      <AudioPlayer src={'https://storage.cloud.google.com/sentiment-songs/4.mp3?authuser=1'} showJumpControls={false} />
+      <AudioPlayer src={'https://storage.googleapis.com/sentiment-songs/4.mp3'} showJumpControls={false} />
       <AppContainer />
     </div>
   );
